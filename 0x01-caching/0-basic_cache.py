@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-""" 0-basic_cache.py """
+"""
+This module contains the BasicCache class which inherits from the BaseCaching class.
+
+The BasicCache class has the following methods:
+1. put(key, item): Add an item in the cache.
+2. get(key): Get an item by key.
+"""
 
 from base_caching import BaseCaching
 
